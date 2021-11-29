@@ -60,9 +60,10 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/mountain_view.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	
 	
 }
@@ -71,15 +72,15 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(245, 40, 145, .13); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+	margin-top: 40px;
 	text-align: center;
 }
 
@@ -87,31 +88,73 @@ h1 {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
-}
-
-h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	 font-family: Arial, Helvetica, sans-serif;
-	 font-size: 2em;
-	 margin: 0px auto 10px auto;
-	 color: #fff;
+    color: rgba#946656;
 }
 
 p {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #c79274;
+
+	/*testing out fading in and out*/
+	animation: fadeIn ease 10s;
+	-webkit-animation: fadeIn ease 10s;
+	-moz-animation: fadeIn ease 10s;
+	-o-animation: fadeIn ease 10s;
+	-ms-animation: fadeIn ease 10s;
 }
-    
+
+@keyframes fadeIn {
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeIn{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
 nav{
-	font-family: garamond;
+	font-family: 'Times New Roman', Times, serif,;
 	font-size: 1.2em;
 	width: 400p;
 	margin: 0 auto;
-	border: dashed turquoise;
-	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
 }
@@ -133,5 +176,5 @@ a{
 
 a:hover{
 	color:black;
-	background:pink;
+	background: #c79274;
 }
