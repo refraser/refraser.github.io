@@ -88,14 +88,14 @@ h1 {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: rgba#ffffff;
+    color: #ffffff;
 }
 
 p {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: rgba #F9F6F0;
+    color: #F9F6F0;
 
 	/*testing out fading in and out*/
 	animation: fadeIn ease 10s;
