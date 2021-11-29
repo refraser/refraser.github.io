@@ -95,7 +95,7 @@ p {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #c79274;
+    color: white
 
 	/*testing out fading in and out*/
 	animation: fadeIn ease 10s;
