@@ -88,14 +88,14 @@ h1 {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #ffffff;
+    color: #F2F2F2;
 }
 
 p {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: .7em;
     line-height: 1.6;
-    color: #F9F6F0;
+    color: #F2F2F2;
 
 	/*testing out fading in and out*/
 	animation: fadeIn ease 10s;
@@ -169,12 +169,12 @@ nav a{
 }
 
 a{
-	color:#444;
+	color:#F2F2F2;
 	text-decoration: none;
 	font-weight: bold;
 }
 
 a:hover{
-	color:black;
-	background: #c79274;
+	color:#ffeaa2;
+	background: #fedcdc;
 }
