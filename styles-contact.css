@@ -69,7 +69,7 @@ html, body {
 }
 
 .center {
-    border-radius: 25px;
+    border-radius:25px 100px 70px;
 	width: 800px;
 	padding: 2%;
     margin: 100px auto;
